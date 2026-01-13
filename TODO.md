@@ -1,0 +1,18 @@
+- [x] Create React app for RoofPro Experts LLC website
+- [x] Update App.jsx with company information and services data
+- [x] Update App.css with responsive styling
+- [x] Start the development server
+- [x] Test the website in browser for responsiveness
+- [x] Update layout to sectioned content with navigation, matching reference style
+- [x] Rename App.js to App.jsx to use JSX extension
+- [x] Create separate JSX pages: Home, About, Services, Contact
+- [x] Implement React Router for navigation between pages
+- [x] Add contact form and additional features to pages
+- [x] Update website content with provided information for each page
+- [x] Add styling for new elements and ensure responsiveness
+- [x] Add mission, vision, and core values to the about page
+- [x] Add background images to hero sections on every page
+- [x] Style hero background images to be 70% screen height on desktop with text overlay
+- [x] Add hamburger menu for tablet and mobile screens
+- [x] Improve text visibility on hero background images
+- [x] Style each page in a separate CSS file
