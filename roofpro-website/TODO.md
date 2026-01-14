@@ -1,0 +1,5 @@
+- [x] Add .container CSS to App.css with max-width 1200px, margin 0 auto, padding 0 1rem
+- [x] Edit Home.jsx: wrap content after hero in <div className="container">
+- [x] Edit About.jsx: wrap content after hero in <div className="container">
+- [x] Edit Services.jsx: wrap content after hero in <div className="container">
+- [x] Edit Contact.jsx: wrap content after hero in <div className="container">

@@ -1,7 +1,48 @@
-.about-page .hero {
-  background-image: url('../assets//about.jpg');
+.con{
+  background-image: url('./assets/about.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 80vh;
+  
 }
-
+.con::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  height: 80vh;
+}
+.descri{
+  display: flex;
+  justify-content: space-between;
+}
+.descr h2{
+  font-size: 1.2rem;
+}
+#descr{
+  width: 60%;
+}
+.descr{
+  width: 30%;
+}
+#descr h1{
+  color: #34495e;
+  font-size: 1.5rem;
+}
+.descr h6{
+  color: #34495e;
+  font-size: 0.8rem;
+}
+#descr p{
+  font-size: 0.9rem;
+  color: grey;
+}
 .mission-vision {
   display: flex;
   flex-wrap: wrap;
@@ -39,13 +80,20 @@
 }
 
 .images img {
-  max-width: 30%;
+  max-width: 45%;
   height: auto;
-  border-radius: 8px;
   margin: 0.5rem;
 }
 
 @media (max-width: 768px) {
+  .descri {
+    flex-direction: column;
+  }
+
+  .descr, #descr {
+    width: 100%;
+  }
+
   .mission-vision {
     flex-direction: column;
     align-items: center;

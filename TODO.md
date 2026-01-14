@@ -16,3 +16,10 @@
 - [x] Add hamburger menu for tablet and mobile screens
 - [x] Improve text visibility on hero background images
 - [x] Style each page in a separate CSS file
+- [x] Style contact form, make it functional, add map, place side by side
+- [x] Add about page snippet to home page after hero with Learn More button
+- [x] Remove container around background images (made content full width)
+- [x] Remove container on the entire website (removed side padding)
+- [x] Add container to entire website except hero sections, remove round edges from hero backgrounds
+- [x] Update about snippet on home page, make entire page media responsive, make hero closer to nav bar
+- [x] Adjust padding and container of the entire page accordingly
