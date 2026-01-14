@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
+import restore from './assets/restore.jpg'
 
 // Fix for default markers in react-leaflet
 delete L.Icon.Default.prototype._getIconUrl;
@@ -50,7 +51,7 @@ function Contact() {
             <p><strong>Email:</strong> EBrenner@roofproexpllc.com</p>
             <div className="cta-buttons">
               <button className="cta-button">Request a Free Estimate</button>
-              <button className="cta-button">Call Us Now</button>
+              <a href="tel:(615) 555-1234" className="cta-button">Call Us Now</a>
             </div>
           </div>
           <div className="form-map-container">
@@ -81,8 +82,8 @@ function Contact() {
               </MapContainer>
             </div>
           </div>
-          <div className="images">
-            <img src="https://source.unsplash.com/featured/?office,staff" alt="Friendly office staff" />
+          <div className="imagel">
+            <img src={restore}alt="Friendly office staff" />
           </div>
         </div>
       </div>

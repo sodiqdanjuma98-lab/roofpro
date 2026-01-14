@@ -6,7 +6,9 @@ import roofleak from './assets/roofleak.jpg'
 import restorer from './assets/restore.jpg'
 import replace from './assets/replace.jpg'
 import service from './assets/services.jpg'
-
+import storm from './assets/storm.jpg'
+import store from './assets/store.jpg'
+import gutter from './assets/gutter.jpg'
 function Services() {
   const services = [
     {
@@ -27,12 +29,12 @@ function Services() {
     {
       name: 'Roof and Gutter Cleaning Services',
       description: 'Debris, leaves, and dirt can clog gutters and damage roofs. Our professional cleaning services remove buildup, prevent water damage, and improve roof longevity, keeping your home safe, clean, and well-maintained.',
-      image: 'https://source.unsplash.com/featured/?gutter,cleaning'
+      image: gutter
     },
     {
       name: 'Storm Response Services',
       description: 'After severe weather, immediate roof attention is crucial. Our storm response team quickly assesses damage, provides emergency repairs, and restores structural integrity, giving you peace of mind and protection from further issues.',
-      image: 'https://source.unsplash.com/featured/?storm,damage,roof'
+      image: storm
     },
     {
       name: 'Roof Repairs',
@@ -42,7 +44,7 @@ function Services() {
     {
       name: 'Roof Restoration',
       description: 'Bring your old or worn roof back to life. Our restoration services improve durability, enhance appearance, and extend the roof’s lifespan, providing a cost-effective solution compared to a complete replacement.',
-      image: 'https://source.unsplash.com/featured/?roof,restoration'
+      image: store
     },
     {
       name: 'Complete Roof Replacement',

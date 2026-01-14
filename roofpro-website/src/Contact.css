@@ -114,6 +114,11 @@
   margin: 1rem 0;
   flex-wrap: wrap;
 }
+.imagel img{
+  width: 100%;
+  height: 60vh;
+  
+}
 
 @media (max-width: 768px) {
   .form-map-container {
